@@ -15,9 +15,24 @@
         </nav>
 
         <h1 id="h1">07_Funktioner_metoder_events</h1>
+        <h3 id="counter"></h3>
+        <p id="message"></p>
 
 
+        <input type="text" id="userInput">
+        <button type="button" id="userInputButton" onclick="addUserInputParagraph();" onmousedown="backgroundRed();" onmouseup="backgroundBlue();">Send Text!</button>
+        <br>
+        <button type="button" id="addDish" onclick="addDish();" >addDish!</button>
+        <br>
+        <button type="button" id="dishCount" onclick="dishCount();" >dishCount!</button>
+        <br>
+        <button type="button" id="showDishes" onclick="showDishes();" >showDishes!</button>
+        <br>
+        <button type="button" id="removeDish" onclick="removeDish();" >removeDish!</button>
+        <br>
+        <button type="button" id="resetDishes" onclick="resetDishes();" >resetDishes!</button>
 
+        <article id="article"></article>
         <script src="js/script.js" async defer></script> <!-- defines script file defined in this html page -->
     </body>
 </html>
